@@ -1,0 +1,36 @@
+h1 {
+  color: red;
+}
+
+/* Así añadimos comentarios */
+
+p {
+  color: blue;
+  font: size 16pt;
+}
+
+/* selector de id */
+#primera-noticia {
+  color: green;
+  font-size: 12pt;
+}
+
+#segunda-noticia {
+  color: darkmagenta;
+}
+
+/* selector de clase */
+.encabezado {
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+/* selector de clase universal: nos sirve para todos los elementos. se puede acompañar de un .nombre */
+*.warning {
+    color: red;
+}
+
+/* Podemos juntar clases e ids con una coma, para que tengan el mismo atributo todas ellas */
+.autor, .fecha, .ubicacion, h1, #segunda-noticia {
+    text-decoration: underline;
+}
